@@ -1,0 +1,157 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.contact_container
+{
+    padding: 60px 40px;
+    width: 100%;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+}
+.detail-1{
+    padding: 10px 20px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detail-1 h2{
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #010f1c;
+    font-weight: 200;
+    margin-bottom: 25px;
+    word-spacing: 9px;
+}
+.innerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 28px;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.deets{
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.deets h3{
+    font-size: 20px;
+}
+.deets p{
+    font-size: 18px;
+}
+.icon{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 50px;
+    gap: 29px;
+}
+.icon li
+{
+    /* margin-left: 20px; */
+    font-size: 25px;
+    list-style: none;
+    padding: 8px 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    transition: 0.5s;
+    /* border-radius: 100px; */
+
+}
+.icon li:hover
+{
+    background: black;
+    padding: 8px 8px;
+    color: #fff;
+   
+}
+.detail-2
+{
+    padding: 10px 20px;
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detail-2 h2
+{
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #010f1c;
+    font-weight: 200;
+    margin-bottom: 25px;
+    word-spacing: 9px;
+
+}
+.detail-2 .form
+{
+    width: 100%;
+    margin-top: 28px;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.contact_container .detail-2 .form form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_container .detail-2 .form form input
+{
+    font-size: 18px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #010f1c;
+    width: 450px;
+    margin-top: 30px;
+    /* margin-left: 35%; */
+}
+.detail-2 .form form textarea
+{
+    padding: 10px 30px;
+    padding-bottom: 0px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #010f1c;
+    width: 450px;
+    margin-top: 30px;
+    resize: none;
+    /* margin-left: 35%; */
+}
+.detail-2 .form form button
+{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    width: 100px;
+    padding: 10px 0px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #010f1c;
+    color: #fff;
+    cursor: pointer;
+}
