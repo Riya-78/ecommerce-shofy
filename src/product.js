@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { BsEye } from 'react-icons/bs';
-import { AiOutlineHeart, AiOutlineCloseCircle } from 'react-icons/ai';
+import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { useAuth0 } from "@auth0/auth0-react";
 import Productdetail from './productdetail'
 import './product.css'
@@ -77,7 +77,7 @@ const Product = ({product, setProduct, detail, view, close, setClose, addtocart}
                                     <div className='box' key={curElm.id}>
                                         <div className='img_box'>
                                           <img src={curElm.Img} alt={curElm.Title}></img>
-                                          <div className='icon'>
+                                          <div className='product-icon'>
                                             {
                                                 isAuthenticated ? 
                                                 <li onClick={() => addtocart (curElm)}><AiOutlineShoppingCart /></li>
